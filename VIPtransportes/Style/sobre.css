@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos Gerais */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+header {
+    background-color: #05152b;
+    color: #ccb378;
+    padding: 20px 0;
+
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Altura da viewport */
+  }
+  
+  .minha-div {
+    width: 500px;
+    height: 1500px;
+    background-color: #f0f0f0;
+    border: 2px solid #333;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    font-size: 24px;
+    color: #333;
+  }
+  
